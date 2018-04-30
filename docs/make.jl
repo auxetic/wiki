@@ -1,17 +1,19 @@
 using Documenter
 
+ENV["DOCUMENTER_DEBUG"] = true
+
 makedocs(
     doctest = false,
     clean = false,
     format = :html,
-    sitename = "wki",
+    sitename = "wiki",
     pages = [
         "Home" => "index.md",
     ]
 )
 
 deploydocs(
-    repo = "github.com/auxetic/wiki.jl",
+    repo = "github.com/auxetic/wiki",
     target = "build",
     julia = "0.6",
     deps = nothing,
