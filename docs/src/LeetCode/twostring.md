@@ -73,6 +73,6 @@ end
 @testset "s_mul" begin
     @test s_mul("2","3") == "6"
     @test s_mul("3","7") == "21"
-    @test_throws ErrorException s_add("a","2")
+    @test_throws ErrorException s_mul("a","2")
 end
 ``` 
