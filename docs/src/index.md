@@ -16,3 +16,18 @@ Documenter, a package for building documentation from docstrings and markdown fi
 - Write all your documentation in [Markdown](https://en.wikipedia.org/wiki/Markdown).
 - Minimal configuration.
 - Supports Julia `0.6` and `0.7-dev`.
+
+c code
+```c
+#include<stdio.h>
+
+int main(int argc, char *argv[])
+{
+    char word[10];
+    puts("enter sth");
+    while (fgets(word,10,stdin) != NULL && word[0] != '\n')
+        fputs(word,stdout);
+    puts("done");
+    return 0;
+}
+```
