@@ -9,3 +9,7 @@ makedocs(
         "Home" => "index.md",
     ]
 )
+
+deploydocs(
+    repo = "github.com/auxetic/wiki.jl.git"
+)

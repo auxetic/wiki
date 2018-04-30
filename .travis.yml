@@ -1,0 +1,3 @@
+after_success:
+  - julia -e 'Pkg.add("Documenter")'
+  - julia -e 'cd(Pkg.dir("wiki")); include(joinpath("docs", "make.jl"))'
