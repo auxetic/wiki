@@ -21,7 +21,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Home",
     "title": "Title",
     "category": "section",
-    "text": "Write all your documentation in Markdown.\nMinimal configuration.\nSupports Julia 0.6 and 0.7-dev."
+    "text": "Write all your documentation in Markdown.\nMinimal configuration.\nSupports Julia 0.6 and 0.7-dev.c code#include<stdio.h>\n\nint main(int argc, char *argv[])\n{\n    char word[10];\n    puts(\"enter sth\");\n    while (fgets(word,10,stdin) != NULL && word[0] != \'\\n\')\n        fputs(word,stdout);\n    puts(\"done\");\n    return 0;\n}"
 },
 
 ]}
