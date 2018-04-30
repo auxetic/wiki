@@ -1,8 +1,7 @@
 language: julia
 julia:
-  - 0.6
+  - nightly
 os:
   - linux
 after_success:
-  - julia -e 'Pkg.add("Documenter")'
-  - julia -e 'include(joinpath("docs", "make.jl"))'
+  - julia -e 'import Pkg3; Pkg3.add("Documenter"); include("docs/make.jl")'
