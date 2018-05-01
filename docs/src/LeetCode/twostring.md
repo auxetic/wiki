@@ -1,14 +1,9 @@
 # String
 
-## test
-
-### add and product of two numeric string
+## add and product of two numeric string
 
 ```julia
-#!/usr/bin/env julia
-
 function s_add(s1::String, s2::String)
-
     !( all(isnumeric,s1) && all(isnumeric,s2) ) && error("xx")
 
     l1 = length(s1)
@@ -29,13 +24,19 @@ function s_add(s1::String, s2::String)
     end
 
     v[1] != 0 ? reduce(*,string.(v)) : reduce(*,string.(v[2:end]))
+end
 
+using Test
+@testset "s_add" begin
+    @test s_add("1","2") == "3"
+    @test s_add("1","9") == "10"
+    @test s_add("11","99") == "110"
+    @test_throws ErrorException s_add("a","2")
 end
 ```
 
 ```julia
 function s_mul(s1::String, s2::String)
-
     !( all(isnumeric,s1) && all(isnumeric,s2) ) && error("xx")
 
     l1 = length(s1)
@@ -60,20 +61,9 @@ function s_mul(s1::String, s2::String)
     end
 
     v[1] != 0 ? reduce(*,string.(v)) : reduce(*,string.(v[2:end]))
-
 end
-```
 
-```julia
 using Test
-
-@testset "s_add" begin
-    @test s_add("1","2") == "3"
-    @test s_add("1","9") == "10"
-    @test s_add("11","99") == "110"
-    @test_throws ErrorException s_add("a","2")
-end
-
 @testset "s_mul" begin
     @test s_mul("2","3") == "6"
     @test s_mul("3","7") == "21"

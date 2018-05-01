@@ -10,7 +10,8 @@ makedocs(
     pages = [
         "Home" => "index.md",
         "LeetCode" => Any[
-            "LeetCode/twostring.md"
+            "LeetCode/twostring.md",
+            "LeetCode/palindrome.md",
             ],
     ]
 )
