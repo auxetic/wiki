@@ -21,7 +21,7 @@ var documenterSearchIndex = {"docs": [
     "page": "Home",
     "title": "Title",
     "category": "section",
-    "text": "Write all your documentation in Markdown.\nMinimal configuration.\nSupports Julia 0.6 and 0.7-dev.c code#include<stdio.h>\n\nint main(int argc, char *argv[])\n{\n    char word[10];\n    puts(\"enter sth\");\n    while (fgets(word,10,stdin) != NULL && word[0] != \'\\n\')\n        fputs(word,stdout);\n    puts(\"done\");\n    return 0;\n}"
+    "text": "Write all your documentation in Markdown.\nMinimal configuration.\nSupports Julia 0.6 and 0.7-dev.math in line Delta E = frac12 BV alpha^2c code#include<stdio.h>\n\nint main(int argc, char *argv[])\n{\n    char word[10];\n    puts(\"enter sth\");\n    while (fgets(word,10,stdin) != NULL && word[0] != \'\\n\')\n        fputs(word,stdout);\n    puts(\"done\");\n    return 0;\n}"
 },
 
 {
@@ -78,6 +78,46 @@ var documenterSearchIndex = {"docs": [
     "title": "String",
     "category": "section",
     "text": "function ispa(x::String)\n    i = 1\n    j = length(x)\n    while i <= j\n        !( isnumeric(x[i]) || isalpha(x[i]) ) && (i += 1)\n        !( isnumeric(x[j]) || isalpha(x[j]) ) && (j -= 1)\n        x[i] != x[j] && return false\n        i += 1; j -= 1\n    end\n    return true\nend\n\nusing Test\n@testset \"string\" begin\n    @test ispa(\"121\")   == true\n    @test ispa(\"aba\")   == true\n    @test ispa(\"abc\")   == false\n    @test ispa(\"a,b.a\") == true\nend"
+},
+
+{
+    "location": "LeetCode/array.html#",
+    "page": "Array",
+    "title": "Array",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "LeetCode/array.html#Array-1",
+    "page": "Array",
+    "title": "Array",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "LeetCode/array.html#Rm-duplicates-A-1",
+    "page": "Array",
+    "title": "Rm duplicates A",
+    "category": "section",
+    "text": "Remove duplicates from Sorted arrayx = sort(rand(1:4,10))\nfunction rmdup!(x)\n    idx = 1\n    for i in 2:length(x)\n        if x[idx] != x[i]\n            idx += 1\n            x[idx] = x[i]\n        end\n    end\n    idx\nend"
+},
+
+{
+    "location": "LeetCode/array.html#Rm-duplicates-B-1",
+    "page": "Array",
+    "title": "Rm duplicates B",
+    "category": "section",
+    "text": "Fellow up probrem, add allow elements duplicate once.function rmdup!(x)\n    idx = 2\n    for i in 3:length(x)\n        if x[idx-1] != x[i]\n            idx += 1\n            x[idx] = x[i]\n        end\n    end\n    idx\nend"
+},
+
+{
+    "location": "LeetCode/array.html#Search-array-1",
+    "page": "Array",
+    "title": "Search array",
+    "category": "section",
+    "text": "x is a sorted array and circle shift 3 index, find the target value and give its idx.x = [1:10;]\nx = circshift(x,3)\n\nfunction findta(x,ta)\n    n1 = 1\n    n3 = length(x)\n    while n3 >= n1\n        n2 = (n1+n3) >> 1\n        x[n2] == ta && return n2\n\n        if x[n2] >= x[n1]\n            if x[n2] >= ta >= x[n1]\n                n3 = n2\n            else\n                n1 = n2 + 1\n            end\n        else\n            if ta>=x[n1] || ta<=x[n2]\n                n3 = n2\n            else\n                n1 = n2 + 1\n            end\n        end\n    end\n    -1\nend"
 },
 
 ]}
