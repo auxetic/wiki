@@ -4,7 +4,7 @@ using Documenter
 
 makedocs(
     doctest = false,
-    clean = false,
+    clean = true,
     format = :html,
     sitename = "wiki",
     pages = [
@@ -12,6 +12,7 @@ makedocs(
         "LeetCode" => Any[
             "LeetCode/twostring.md",
             "LeetCode/palindrome.md",
+            "LeetCode/array.md",
             ],
     ]
 )

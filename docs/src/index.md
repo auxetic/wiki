@@ -17,6 +17,8 @@ Documenter, a package for building documentation from docstrings and markdown fi
 - Minimal configuration.
 - Supports Julia `0.6` and `0.7-dev`.
 
+math in line ``\Delta E = \frac{1}{2} BV \alpha^2``
+
 c code
 ```c
 #include<stdio.h>
