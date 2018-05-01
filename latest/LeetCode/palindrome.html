@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Palindrome · wiki</title><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL=".."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" data-main="../assets/documenter.js"></script><script src="../siteinfo.js"></script><script src="../../versions.js"></script><link href="../assets/documenter.css" rel="stylesheet" type="text/css"/></head><body><nav class="toc"><h1>wiki</h1><select id="version-selector" onChange="window.location.href=this.value" style="visibility: hidden"></select><form class="search" id="search-form" action="../search.html"><input id="search-query" name="q" type="text" placeholder="Search docs"/></form><ul><li><a class="toctext" href="../index.html">Home</a></li><li><span class="toctext">LeetCode</span><ul><li><a class="toctext" href="twostring.html">String</a></li><li class="current"><a class="toctext" href="palindrome.html">Palindrome</a><ul class="internal"><li><a class="toctext" href="#Integer-1">Integer</a></li><li><a class="toctext" href="#String-1">String</a></li></ul></li></ul></li></ul></nav><article id="docs"><header><nav><ul><li>LeetCode</li><li><a href="palindrome.html">Palindrome</a></li></ul><a class="edit-page" href="https://github.com/auxetic/wiki/blob/master/docs/src/LeetCode/palindrome.md"><span class="fa"></span> Edit on GitHub</a></nav><hr/><div id="topbar"><span>Palindrome</span><a class="fa fa-bars" href="#"></a></div></header><h1><a class="nav-anchor" id="Palindrome-1" href="#Palindrome-1">Palindrome</a></h1><p>determine if a integer or string is palindrome.</p><h2><a class="nav-anchor" id="Integer-1" href="#Integer-1">Integer</a></h2><pre><code class="language-julia">function ispa(x::T) where T &lt;: Signed
+    @assert(x&gt;0)
+    y = x
+    z = zero(x)
+    while y != 0
+        z = 10 * z + y%10
+        y = floor(T,y/10)
+    end
+    z == x
+end
+
+using Test
+@testset &quot;integer&quot; begin
+    @test ispa(1)   == true
+    @test ispa(11)  == true
+    @test ispa(12)  == false
+    @test ispa(121) == true
+    @test ispa(122) == false
+    @test_throws MethodError ispa(1.0)
+    @test_throws AssertionError ispa(-11)
+end</code></pre><h2><a class="nav-anchor" id="String-1" href="#String-1">String</a></h2><pre><code class="language-julia">function ispa(x::String)
+    i = 1
+    j = length(x)
+    while i &lt;= j
+        !( isnumeric(x[i]) || isalpha(x[i]) ) &amp;&amp; (i += 1)
+        !( isnumeric(x[j]) || isalpha(x[j]) ) &amp;&amp; (j -= 1)
+        x[i] != x[j] &amp;&amp; return false
+        i += 1; j -= 1
+    end
+    return true
+end
+
+using Test
+@testset &quot;string&quot; begin
+    @test ispa(&quot;121&quot;)   == true
+    @test ispa(&quot;aba&quot;)   == true
+    @test ispa(&quot;abc&quot;)   == false
+    @test ispa(&quot;a,b.a&quot;) == true
+end</code></pre><footer><hr/><a class="previous" href="twostring.html"><span class="direction">Previous</span><span class="title">String</span></a></footer></article></body></html>

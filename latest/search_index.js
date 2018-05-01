@@ -41,19 +41,43 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/twostring.html#test-1",
-    "page": "String",
-    "title": "test",
-    "category": "section",
-    "text": ""
-},
-
-{
     "location": "LeetCode/twostring.html#add-and-product-of-two-numeric-string-1",
     "page": "String",
     "title": "add and product of two numeric string",
     "category": "section",
-    "text": "#!/usr/bin/env julia\n\nfunction s_add(s1::String, s2::String)\n\n    !( all(isnumeric,s1) && all(isnumeric,s2) ) && error(\"xx\")\n\n    l1 = length(s1)\n    l2 = length(s2)\n    l  = max(l1,l2) + 1\n    v  = zeros(Int8,l)\n    \n    for i in 1:l-1\n        x1 = i<=l1 ? s1[l1+1-i] - \'0\' : 0\n        x2 = i<=l2 ? s2[l2+1-i] - \'0\' : 0\n        x = x1 + x2\n        if x >= 10\n            v[l+1-i] += x - 10\n            v[l-i]   += 1\n        else\n            v[l+1-i] += x\n        end\n    end\n\n    v[1] != 0 ? reduce(*,string.(v)) : reduce(*,string.(v[2:end]))\n\nendfunction s_mul(s1::String, s2::String)\n\n    !( all(isnumeric,s1) && all(isnumeric,s2) ) && error(\"xx\")\n\n    l1 = length(s1)\n    l2 = length(s2)\n    l  = l1 + l2\n    v  = zeros(Int8,l)\n    \n    for i1 in 1:l1\n        x1 = s1[l1+1-i1] - \'0\'\n        for i2 in 1:l2\n            x2 = s2[l2+1-i2] - \'0\'\n            v[l+2-i1-i2] += x1 * x2\n        end\n    end\n\n    for i in l:-1:1\n        x = v[i]\n        if x>10\n            v[i]    = x%10\n            v[i-1] += floor(Int8,x/10)\n        end\n    end\n\n    v[1] != 0 ? reduce(*,string.(v)) : reduce(*,string.(v[2:end]))\n\nendusing Test\n\n@testset \"s_add\" begin\n    @test s_add(\"1\",\"2\") == \"3\"\n    @test s_add(\"1\",\"9\") == \"10\"\n    @test s_add(\"11\",\"99\") == \"110\"\n    @test_throws ErrorException s_add(\"a\",\"2\")\nend\n\n@testset \"s_mul\" begin\n    @test s_mul(\"2\",\"3\") == \"6\"\n    @test s_mul(\"3\",\"7\") == \"21\"\n    @test_throws ErrorException s_mul(\"a\",\"2\")\nend"
+    "text": "function s_add(s1::String, s2::String)\n    !( all(isnumeric,s1) && all(isnumeric,s2) ) && error(\"xx\")\n\n    l1 = length(s1)\n    l2 = length(s2)\n    l  = max(l1,l2) + 1\n    v  = zeros(Int8,l)\n    \n    for i in 1:l-1\n        x1 = i<=l1 ? s1[l1+1-i] - \'0\' : 0\n        x2 = i<=l2 ? s2[l2+1-i] - \'0\' : 0\n        x = x1 + x2\n        if x >= 10\n            v[l+1-i] += x - 10\n            v[l-i]   += 1\n        else\n            v[l+1-i] += x\n        end\n    end\n\n    v[1] != 0 ? reduce(*,string.(v)) : reduce(*,string.(v[2:end]))\nend\n\nusing Test\n@testset \"s_add\" begin\n    @test s_add(\"1\",\"2\") == \"3\"\n    @test s_add(\"1\",\"9\") == \"10\"\n    @test s_add(\"11\",\"99\") == \"110\"\n    @test_throws ErrorException s_add(\"a\",\"2\")\nendfunction s_mul(s1::String, s2::String)\n    !( all(isnumeric,s1) && all(isnumeric,s2) ) && error(\"xx\")\n\n    l1 = length(s1)\n    l2 = length(s2)\n    l  = l1 + l2\n    v  = zeros(Int8,l)\n    \n    for i1 in 1:l1\n        x1 = s1[l1+1-i1] - \'0\'\n        for i2 in 1:l2\n            x2 = s2[l2+1-i2] - \'0\'\n            v[l+2-i1-i2] += x1 * x2\n        end\n    end\n\n    for i in l:-1:1\n        x = v[i]\n        if x>10\n            v[i]    = x%10\n            v[i-1] += floor(Int8,x/10)\n        end\n    end\n\n    v[1] != 0 ? reduce(*,string.(v)) : reduce(*,string.(v[2:end]))\nend\n\nusing Test\n@testset \"s_mul\" begin\n    @test s_mul(\"2\",\"3\") == \"6\"\n    @test s_mul(\"3\",\"7\") == \"21\"\n    @test_throws ErrorException s_mul(\"a\",\"2\")\nend"
+},
+
+{
+    "location": "LeetCode/palindrome.html#",
+    "page": "Palindrome",
+    "title": "Palindrome",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "LeetCode/palindrome.html#Palindrome-1",
+    "page": "Palindrome",
+    "title": "Palindrome",
+    "category": "section",
+    "text": "determine if a integer or string is palindrome."
+},
+
+{
+    "location": "LeetCode/palindrome.html#Integer-1",
+    "page": "Palindrome",
+    "title": "Integer",
+    "category": "section",
+    "text": "function ispa(x::T) where T <: Signed\n    @assert(x>0)\n    y = x\n    z = zero(x)\n    while y != 0\n        z = 10 * z + y%10\n        y = floor(T,y/10)\n    end\n    z == x\nend\n\nusing Test\n@testset \"integer\" begin\n    @test ispa(1)   == true\n    @test ispa(11)  == true\n    @test ispa(12)  == false\n    @test ispa(121) == true\n    @test ispa(122) == false\n    @test_throws MethodError ispa(1.0)\n    @test_throws AssertionError ispa(-11)\nend"
+},
+
+{
+    "location": "LeetCode/palindrome.html#String-1",
+    "page": "Palindrome",
+    "title": "String",
+    "category": "section",
+    "text": "function ispa(x::String)\n    i = 1\n    j = length(x)\n    while i <= j\n        !( isnumeric(x[i]) || isalpha(x[i]) ) && (i += 1)\n        !( isnumeric(x[j]) || isalpha(x[j]) ) && (j -= 1)\n        x[i] != x[j] && return false\n        i += 1; j -= 1\n    end\n    return true\nend\n\nusing Test\n@testset \"string\" begin\n    @test ispa(\"121\")   == true\n    @test ispa(\"aba\")   == true\n    @test ispa(\"abc\")   == false\n    @test ispa(\"a,b.a\") == true\nend"
 },
 
 ]}
