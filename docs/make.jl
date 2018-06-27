@@ -1,6 +1,6 @@
 #!/bin/env julia
 
-push!(LOAD_PATH,"../src/")
+#  push!(LOAD_PATH,"../src/")
 using Documenter, wiki
 
 #  ENV["DOCUMENTER_DEBUG"] = true
