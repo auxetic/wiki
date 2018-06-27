@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Hash · wiki</title><link rel="canonical" href="https://auxetic.github.io/auxetic/LeetCode/hash.html"/><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL=".."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" data-main="../assets/documenter.js"></script><script src="../siteinfo.js"></script><script src="../../versions.js"></script><link href="../assets/documenter.css" rel="stylesheet" type="text/css"/></head><body><nav class="toc"><h1>wiki</h1><select id="version-selector" onChange="window.location.href=this.value" style="visibility: hidden"></select><form class="search" id="search-form" action="../search.html"><input id="search-query" name="q" type="text" placeholder="Search docs"/></form><ul><li><a class="toctext" href="../index.html">Home</a></li><li><span class="toctext">Fortran</span><ul><li><a class="toctext" href="../Fortran/Qsort.html">Quick Sort</a></li></ul></li><li><span class="toctext">LeetCode</span><ul><li><a class="toctext" href="twostring.html">String</a></li><li><a class="toctext" href="palindrome.html">Palindrome</a></li><li><a class="toctext" href="array.html">Array</a></li><li class="current"><a class="toctext" href="hash.html">Hash</a><ul class="internal"><li><a class="toctext" href="#Group-anagrams-1">Group anagrams</a></li></ul></li><li><a class="toctext" href="heap.html">Heap</a></li></ul></li></ul></nav><article id="docs"><header><nav><ul><li>LeetCode</li><li><a href="hash.html">Hash</a></li></ul><a class="edit-page" href="https://github.com/auxetic/wiki/blob/master/docs/src/LeetCode/hash.md"><span class="fa"></span> Edit on GitHub</a></nav><hr/><div id="topbar"><span>Hash</span><a class="fa fa-bars" href="#"></a></div></header><h1><a class="nav-anchor" id="Hash-1" href="#Hash-1">Hash</a></h1><h2><a class="nav-anchor" id="Group-anagrams-1" href="#Group-anagrams-1">Group anagrams</a></h2><p>Given an array of strings, like [&quot;tan&quot;, &quot;nat&quot;, &quot;ant&quot;, &quot;abc&quot;, &quot;cc&quot;, &quot;bca&quot; ], return:</p><pre><code class="language-none">[
+    [&quot;tan&quot;, &quot;nat&quot;, &quot;ant&quot;],
+    [&quot;abc&quot;, &quot;bca&quot;],
+    [&quot;cc&quot;]
+]</code></pre><pre><code class="language-julia">mutable struct Stringhash
+    s::String
+    h::Set
+    hit::Bool
+end
+
+function dictgroup(sarray::Vector{String})
+
+    result = Vector{String}[]
+
+    sst = Stringhash[]
+    for si in sarray
+        push!(sst,Stringhash(si,Set([si...]),false))
+    end
+
+    for i in 1:length(sst)
+        sst[i].hit == true &amp;&amp; continue
+
+        rtemp = String[]
+        push!(rtemp,sst[i].s)
+
+        for j in i+1:length(sst)
+            if sst[i].h == sst[j].h
+                sst[j].hit = true
+                push!(rtemp,sst[j].s)
+            end
+        end
+
+        push!(result,rtemp)
+    end
+
+    return result
+
+end</code></pre><footer><hr/><a class="previous" href="array.html"><span class="direction">Previous</span><span class="title">Array</span></a><a class="next" href="heap.html"><span class="direction">Next</span><span class="title">Heap</span></a></footer></article></body></html>
