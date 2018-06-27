@@ -2,10 +2,10 @@
 uuid = "2a0f44e3-6c83-55bd-87e4-b1978d98bd5f"
 
 [[Compat]]
-deps = ["Base64", "Dates", "DelimitedFiles", "Distributed", "InteractiveUtils", "IterativeEigensolvers", "LibGit2", "Libdl", "LinearAlgebra", "Markdown", "Mmap", "Pkg", "Printf", "REPL", "Random", "Serialization", "SharedArrays", "SparseArrays", "SuiteSparse", "Test", "UUIDs", "Unicode"]
-git-tree-sha1 = "a4748bd94b1636dad7d5ed05bcb37bb4352feb25"
+deps = ["Base64", "Dates", "DelimitedFiles", "Distributed", "InteractiveUtils", "LibGit2", "Libdl", "LinearAlgebra", "Markdown", "Mmap", "Pkg", "Printf", "REPL", "Random", "Serialization", "SharedArrays", "Sockets", "SparseArrays", "Test", "UUIDs", "Unicode"]
+git-tree-sha1 = "f3e87ca1e2df8e1e4f82ea504fddf0b9b0894f61"
 uuid = "34da2185-b29b-5c13-b0c7-acf172513d20"
-version = "0.64.0"
+version = "0.69.0"
 
 [[Dates]]
 uuid = "ade2ca70-3891-5945-98fb-dc099432e06a"
@@ -24,15 +24,12 @@ version = "0.4.4"
 
 [[Documenter]]
 deps = ["Compat", "DocStringExtensions", "Logging", "REPL"]
-git-tree-sha1 = "12ccdde14e4223f95f8e55c83c72cc531e786fff"
+git-tree-sha1 = "4fc4abdb5ac20ece943ff6e0a7e2a254d148f434"
 uuid = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
-version = "0.17.0"
+version = "0.18.0"
 
 [[InteractiveUtils]]
 uuid = "b77e0a4c-d291-57a0-90e8-8db25a27a240"
-
-[[IterativeEigensolvers]]
-uuid = "de555fa4-b82f-55e7-8b71-53f60bbc027d"
 
 [[LibGit2]]
 uuid = "76f85450-5226-5b5a-8eaa-529ad045b433"
@@ -53,7 +50,7 @@ uuid = "d6f4376e-aef5-505a-96c1-9c027394607a"
 uuid = "a63ad114-7e13-5084-954f-fe012c677804"
 
 [[Pkg]]
-uuid = "fe1c5a76-5840-53d2-82f9-288dd83ce2ce"
+uuid = "44cfe95a-1eb2-52ea-b672-e2afdf69b78f"
 
 [[Printf]]
 uuid = "de0858da-6303-5e67-8744-51eddeeeb8d7"
@@ -70,11 +67,11 @@ uuid = "9e88b42a-f829-5b0c-bbe9-9e923198166b"
 [[SharedArrays]]
 uuid = "1a1011a3-84de-559e-8e89-a11a2f7dc383"
 
+[[Sockets]]
+uuid = "6462fe0b-24de-5631-8697-dd941f90decc"
+
 [[SparseArrays]]
 uuid = "2f01184e-e22b-5df5-ae63-d93ebab69eaf"
-
-[[SuiteSparse]]
-uuid = "4607b0f0-06f3-5cda-b6b1-a6196a1729e9"
 
 [[Test]]
 uuid = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
