@@ -2,6 +2,9 @@
 
 ## Rm duplicates A
 Remove duplicates from **Sorted** array
+```@setup abc
+using Test
+```
 ```julia
 x = sort(rand(1:4,10))
 function rmdup!(x)

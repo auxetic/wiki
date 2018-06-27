@@ -1,0 +1,3 @@
+module wiki
+
+end
