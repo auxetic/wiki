@@ -24,12 +24,13 @@ makedocs(
             "LeetCode/heap.md",
             ],
     ],
+    html_canonical = "https://auxetic.github.io/auxetic/",
 )
 
 deploydocs(
     repo = "github.com/auxetic/wiki",
     target = "build",
-    julia = "0.7",
+    julia = "nightly",
     deps = nothing,
     make = nothing,
 )
