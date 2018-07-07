@@ -192,4 +192,68 @@ var documenterSearchIndex = {"docs": [
     "text": "Use julia\'s DataStructures library.using DataStructures\n\nx = rand(1000);\nnlargest(10,x)Use numpy\'s partial sortimport numpy as np\n\nx = np.random.rand(1000);\nnp.argpartition(x, -10)[-10:]"
 },
 
+{
+    "location": "YearBook/index.html#",
+    "page": "历史年鉴",
+    "title": "历史年鉴",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "YearBook/index.html#历史年鉴-1",
+    "page": "历史年鉴",
+    "title": "历史年鉴",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "YearBook/index.html#?-新（汉）-1",
+    "page": "历史年鉴",
+    "title": "? - 新（汉）",
+    "category": "section",
+    "text": "note: Note\n以新朝分界，界线分明209 BCE  陈胜吴广起义"
+},
+
+{
+    "location": "YearBook/index.html#新中国-1",
+    "page": "历史年鉴",
+    "title": "新中国",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "YearBook/index.html#-1",
+    "page": "历史年鉴",
+    "title": "1971",
+    "category": "section",
+    "text": "7.9-11  美国总统国家安全事物助理亨利·基辛格秘密访华"
+},
+
+{
+    "location": "YearBook/index.html#-2",
+    "page": "历史年鉴",
+    "title": "1972",
+    "category": "section",
+    "text": "2.21-28  美国总统理查德·尼克松访华\n2.28     中美签署《上海公报》\n9.25     日本首相田中角荣访华\n9.29     中日建交"
+},
+
+{
+    "location": "YearBook/index.html#-3",
+    "page": "历史年鉴",
+    "title": "1979",
+    "category": "section",
+    "text": "1.1 中美建交，共同发布《中美建交公报》"
+},
+
+{
+    "location": "YearBook/index.html#-4",
+    "page": "历史年鉴",
+    "title": "1982",
+    "category": "section",
+    "text": "8.17 中美签署《八一七公报》，全称《中美就解决美国向台出售武器问题的公告》"
+},
+
 ]}
