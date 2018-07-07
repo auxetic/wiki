@@ -4,4 +4,4 @@ julia:
 os:
   - linux
 after_success:
-  - julia -e 'using Pkg; Pkg.instantiate(); include("docs/make.jl")'
+  - julia --project -e 'using Pkg; Pkg.instantiate(); include("docs/make.jl")'
