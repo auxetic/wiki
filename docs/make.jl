@@ -1,10 +1,8 @@
 #!/bin/env julia
 
-#  push!(LOAD_PATH,"../src/")
-using Documenter, wiki
+using Documenter
 
 #  ENV["DOCUMENTER_DEBUG"] = true
-
 
 makedocs(
     doctest = false,
@@ -22,6 +20,9 @@ makedocs(
             "LeetCode/array.md",
             "LeetCode/hash.md",
             "LeetCode/heap.md",
+            ],
+        "年鉴" => Any[
+            "YearBook/index.md",
             ],
     ],
     html_canonical = "https://auxetic.github.io/auxetic/",
