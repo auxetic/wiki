@@ -9,8 +9,15 @@ makedocs(
     clean = true,
     format = :html,
     sitename = "wiki",
+    assets = ["assets/custom.css"],
     pages = [
         "Home" => "index.md",
+        "Algorithm" => Any[
+            "Algorithm/autodiff.md",
+            ],
+        "Python" => Any[
+            "Python/index.md",
+        ],
         "Fortran"  => Any[
             "Fortran/Qsort.md",
             ],
