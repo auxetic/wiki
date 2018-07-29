@@ -33,6 +33,102 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
+    "location": "index.html#-1",
+    "page": "Home",
+    "title": "",
+    "category": "section",
+    "text": "对于温度很低的Jam固体，所有质点在其原始位置u_i^0周围振动，这里我们认为其在不同时刻的位置服从正态分布（明显不是） Phi(mu_isigma_0) 当温度升高时，我们有理论预期，即: v_i = (mu_i-u_i^0) sim T 但是v_i很小，需要通过大量地对 u_i-u_i^0 采样平均才能得到，这里我们对得到可信结果所需采样次数进行估计。粒子振动范围的估计: frac12omega^2 A^2 = frac12kT sigma_0 = A approx sqrtT"
+},
+
+{
+    "location": "Algorithm/autodiff.html#",
+    "page": "-",
+    "title": "-",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "Algorithm/autodiff.html#自动微分-1",
+    "page": "-",
+    "title": "自动微分",
+    "category": "section",
+    "text": "函数求导是一件很常见的数学操作。在我们已知函数形式的情况下，如何通过计算机求函数的导数呢？ 很容易想到的是以下两种方法：根据求导规则进行符号计算， sin(x) = cos(x)\n通过差分计算， sin(x+h)-sin(x)h这里，mutable struct Dual <: Number\n    v::Float64\n    d::Float64\nend\n\nimport Base: +, -, *, /, show\n\nBase.show(io::IO,x::Dual) = print(\"$(x.v) + $(x.d)ϵ\")\n\n(+)(x::Dual, y::Dual) = Dual(x.v+y.v, x.d+y.d)\n(-)(x::Dual, y::Dual) = Dual(x.v-y.v, x.d-y.d)\n(*)(x::Dual, y::Dual) = Dual(x.v*y.v, x.v*y.d+x.d*y.v)\n(/)(x::Dual, y::Dual) = Dual(x.v/y.v, (x.d*y.v-x.v*y.d)/y.v/y.v)\nconvert(::Type{Dual}, x::Real) = Dual(x,zero(x))\npromote_rule(::Type{Dual}, ::Type{<:Number}) = Dual"
+},
+
+{
+    "location": "Python/index.html#",
+    "page": "Python 学习记录",
+    "title": "Python 学习记录",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "Python/index.html#Python-学习记录-1",
+    "page": "Python 学习记录",
+    "title": "Python 学习记录",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "Python/index.html#快速启动HTTPServer-1",
+    "page": "Python 学习记录",
+    "title": "快速启动HTTPServer",
+    "category": "section",
+    "text": "在命令行界面某目录中，执行python -m SimpleHTTPServer可以快速启动一个http服务，默认监听本地所有地址的8000端口, 浏览器中打开，即可看到目录下的文件"
+},
+
+{
+    "location": "Python/index.html#sys.argv获取命令行参数-1",
+    "page": "Python 学习记录",
+    "title": "sys.argv获取命令行参数",
+    "category": "section",
+    "text": "用于简单的接受命令行传进的参数, 返回一个普通的列表$ cat test.py\n#!/usr/bin/env python\nimport sys\nprint(sys.argv)\n$ ./test.py -n 1\n[\'test.py\', \'-n\', \'1\']"
+},
+
+{
+    "location": "Python/index.html#标准输入输出-1",
+    "page": "Python 学习记录",
+    "title": "标准输入输出",
+    "category": "section",
+    "text": "在sys库中定义了三个文件描述符，stdin, stdout, stderr"
+},
+
+{
+    "location": "Python/index.html#从stdin读取内容-1",
+    "page": "Python 学习记录",
+    "title": "从stdin读取内容",
+    "category": "section",
+    "text": "$ cat test.py\nimport sys\nfor line in sys.stdin:\n    print(line)\n$ ./test.py <<eof\n1\neof\n1这里stdin是文件操作符，python已经自带了一个读取的方法，我想应当等效于for line in sys.stdin.readlines():\n    print(line)对Julia，需要使用类似上面的操作。"
+},
+
+{
+    "location": "Python/index.html#向stdout-stderr写入-1",
+    "page": "Python 学习记录",
+    "title": "向stdout stderr写入",
+    "category": "section",
+    "text": "一般用print就可以了$ cat test.py\nimport sys\nsys.stdout.write(\"hello\")\nsys.stderr.write(\"world\")\n$ ./test.py  > /dev/null\nworld\n$ ./test.py 2> /dev/null\nhello程序退出码sys.exit(1)"
+},
+
+{
+    "location": "Python/index.html#fileinput-标准库-1",
+    "page": "Python 学习记录",
+    "title": "fileinput 标准库",
+    "category": "section",
+    "text": "使用stdin只能从标准输入读取内容，fileinput标准库实现了文件的读取（也可以读取标准输入）$ cat test.py\nimport fileinput\nfor line in fileinput.input()\n    print(line,end=\"\")\n$ ./test.py < /etc/passwd还定义了一些方法，用以输出文件名、行号等信息，有filename, fileno, filelineno, isfirstline, isstdin, nextfile等"
+},
+
+{
+    "location": "Python/index.html#getpass-标准库-1",
+    "page": "Python 学习记录",
+    "title": "getpass 标准库",
+    "category": "section",
+    "text": "用以获得当前用户用户名，和在终端上安全的输入密码$ cat test.py\nimport getpass\nuser = getpass.getuser()\npasswd = getpass.getpass(\"Password: \")\n$ ./test.py\nPassword:   在此输入，屏幕无显示\nliuxu\n123Julia也实现了getpass，不过没有exportio = Base.getpass(\"input\")\nss = read(io,String)\nBase.shred!(io)\nprintln(ss)"
+},
+
+{
     "location": "Fortran/Qsort.html#",
     "page": "Quick Sort",
     "title": "Quick Sort",
