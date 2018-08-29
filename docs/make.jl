@@ -2,14 +2,11 @@
 
 using Documenter
 
-#  ENV["DOCUMENTER_DEBUG"] = true
-
 makedocs(
+    format = :html,
     doctest = false,
     clean = true,
-    format = :html,
     sitename = "wiki",
-    assets = ["assets/custom.css"],
     pages = [
         "Home" => "index.md",
         "Algorithm" => Any[
@@ -32,13 +29,12 @@ makedocs(
             "YearBook/index.md",
             ],
     ],
-    html_canonical = "https://auxetic.github.io/auxetic/",
 )
 
 deploydocs(
     repo = "github.com/auxetic/wiki",
     target = "build",
-    julia = "nightly",
+    julia = "1.0",
     deps = nothing,
     make = nothing,
 )
