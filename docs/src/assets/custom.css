@@ -1,5 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=|Fira+Mono|Vollkorn');
-@import url(//fonts.googleapis.com/earlyaccess/notosanssc.css);
+@import url('https://fonts.lug.ustc.edu.cn/css?family=Fira+Mono');
+@import url('https://fonts.lug.ustc.edu.cn/css?family=Vollkorn');
+@import url('https://fonts.lug.ustc.edu.cn/earlyaccess/notosanssc.css');
+/* @import url('https://fonts.googleapis.com/css?family=Fira+Mono'); */
+/* @import url('https://fonts.googleapis.com/css?family=Vollkorn'); */
 /* @import url(//fonts.googleapis.com/earlyaccess/notosanstc.css); */
 
 pre, code {
@@ -19,9 +22,10 @@ pre {
 }
 
 body {
-    font-family: font-family: 'Vollkorn', 'Noto Sans SC', sans-serif;
+    font-family: 'Vollkorn', 'Noto Sans SC', sans-serif;
     font-size: 15px;
     color: #444;
+    text-shadow: 4px 4px 4px #ddd;
 }
 
 
@@ -58,11 +62,12 @@ a:hover {
 nav.toc ul a.toctext {
     font-size: 16px;
     padding-left: 24px;
-    color: #555;
+    /* color: #555; */
+    color: #aaa;
 }
 nav.toc ul a.toctext:hover {
     border-bottom: 2px #337ab7;
-    /*background: #337ab7;*/
+    background: #337ab7;
 }
 nav.toc input {
     margin: 1em auto;
@@ -70,7 +75,7 @@ nav.toc input {
 
 nav.toc {
     margin-left: 0;
-    width: 200px;
+    width: 300px;
     background: #EEE;
     box-shadow: none;
     font-family: 'Vollkorn', 'Noto Sans SC', serif;
@@ -85,9 +90,9 @@ nav.toc {
     display: none;
 }
 
-#docs {
-    margin-left: 232px;
-}
+/* #docs { */
+/*     margin-left: 232px; */
+/* } */
 
 nav.toc li.current > .toctext {
     color: #555;
