@@ -29,7 +29,7 @@ makedocs(
             "YearBook/index.md",
             ],
     ],
-    assets = ["assets/custom.css", "assets/custom.js"]
+    assets = ["assets/custom.css", "assets/custom.js", "assets/favicon.ico"]
 )
 
 deploydocs(
