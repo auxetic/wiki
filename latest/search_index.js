@@ -313,6 +313,14 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
+    "location": "YearBook/index.html#-1",
+    "page": "历史年鉴",
+    "title": "1947",
+    "category": "section",
+    "text": "11.6 杨德昌出生于上海市。卒于2007.6.29。祖籍广东梅县；1985年与蔡琴结婚，1995年离婚，同年娶台湾钢琴家彭铠立。"
+},
+
+{
     "location": "YearBook/index.html#新中国-1",
     "page": "历史年鉴",
     "title": "新中国",
@@ -321,7 +329,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-1",
+    "location": "YearBook/index.html#-2",
     "page": "历史年鉴",
     "title": "1971",
     "category": "section",
@@ -329,7 +337,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-2",
+    "location": "YearBook/index.html#-3",
     "page": "历史年鉴",
     "title": "1972",
     "category": "section",
@@ -337,7 +345,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-3",
+    "location": "YearBook/index.html#-4",
     "page": "历史年鉴",
     "title": "1979",
     "category": "section",
@@ -345,11 +353,99 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-4",
+    "location": "YearBook/index.html#-5",
     "page": "历史年鉴",
     "title": "1982",
     "category": "section",
-    "text": "8.17 中美签署《八一七公报》，全称《中美就解决美国向台出售武器问题的公告》"
+    "text": "4-6 英国、阿根廷为争夺马尔那斯群岛爆发马岛海战\n8.17 中美签署《八一七公报》，全称《中美就解决美国向台出售武器问题的公告》"
+},
+
+{
+    "location": "YearBook/index.html#-6",
+    "page": "历史年鉴",
+    "title": "1985",
+    "category": "section",
+    "text": "3.11 戈尔巴乔夫出任苏共中央书记"
+},
+
+{
+    "location": "YearBook/index.html#-7",
+    "page": "历史年鉴",
+    "title": "1991",
+    "category": "section",
+    "text": "8.19-21 苏共保守派发动政变，于黑海畔软禁戈尔巴乔夫\n8.24 戈尔巴乔夫辞去苏共总书记\n12.25 苏联总统戈尔巴乔夫辞职\n12.26 苏联最高苏维埃通过决议宣布解体"
+},
+
+{
+    "location": "YearBook/index.html#-8",
+    "page": "历史年鉴",
+    "title": "2001",
+    "category": "section",
+    "text": "9.11 九一一事件，基地组织恐怖分子劫持四架飞机分别撞向世贸大厦、五角大楼、国会大厦（未成功）。计造成2977人死亡或失踪\n10.7 美国联军对阿富汗基地组织和塔利班发起反恐战争"
+},
+
+{
+    "location": "YearBook/index.html#-9",
+    "page": "历史年鉴",
+    "title": "2003",
+    "category": "section",
+    "text": "3.20 美英等国对伊拉克发动战争，2010.8.18战争结束\n12.13 萨达姆被捕于家乡提克里特"
+},
+
+{
+    "location": "YearBook/index.html#-10",
+    "page": "历史年鉴",
+    "title": "2006",
+    "category": "section",
+    "text": "12.30 萨达姆·侯赛因被执行绞刑（宣判日为2006.11.5），终年69岁"
+},
+
+{
+    "location": "YearBook/index.html#-11",
+    "page": "历史年鉴",
+    "title": "2007",
+    "category": "section",
+    "text": "6.29 杨德昌逝世，参见1947.11.6条"
+},
+
+{
+    "location": "YearBook/index.html#-12",
+    "page": "历史年鉴",
+    "title": "2011",
+    "category": "section",
+    "text": "5.1 奥萨玛·本拉登被美军击毙"
+},
+
+{
+    "location": "YearBook/index.html#-13",
+    "page": "历史年鉴",
+    "title": "2014",
+    "category": "section",
+    "text": "3.2 俄罗斯增加克里米亚驻军\n3.16 克里米亚举行全民公投\n3.18-21 克里米亚共和国和塞瓦斯托波尔加入俄罗斯联邦"
+},
+
+{
+    "location": "YearBook/index.html#-14",
+    "page": "历史年鉴",
+    "title": "2016",
+    "category": "section",
+    "text": "5.20 蔡英文就任台湾省省长，副省长陈建仁。任命林全为行政院长\n12.21 圣多美普林西比与民国断交"
+},
+
+{
+    "location": "YearBook/index.html#-15",
+    "page": "历史年鉴",
+    "title": "2017",
+    "category": "section",
+    "text": "1.20 特朗普（Donald John Trump）正式就任美国总统。特朗普生于1946.6.14，时年71岁\n6.13 巴拿马与民国断交\n9.8 台南市长赖清德转任行政院长，林全下台"
+},
+
+{
+    "location": "YearBook/index.html#-16",
+    "page": "历史年鉴",
+    "title": "2018",
+    "category": "section",
+    "text": "5.1 多米尼加与民国断交\n5.24 布基纳法索与民国断交\n8.21 萨尔瓦多与民国断交\n8.24 澳大利亚总理特恩布尔下台，国防部长斯科特·莫里森（Scott Morrison）出任新任总理"
 },
 
 ]}
