@@ -1,7 +1,18 @@
 language: julia
-julia:
-  - nightly
-os:
-  - linux
-after_success:
-  - julia --project -e 'using Pkg; Pkg.instantiate(); include("docs/make.jl")'
+# julia:
+#   - nightly
+# os:
+#   - linux
+# after_success:
+#   - julia --project -e 'using Pkg; Pkg.instantiate(); include("docs/make.jl")'
+#
+jobs:
+  include:
+    - stage: "Documentation"
+      julia: 1.0
+      os: linux
+      script:
+        - julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
+        - julia --project=docs/ -e 'using Pkg; Pkg.add(PackageSpec(path=pwd()))'
+        - julia --project=docs/ docs/make.jl
+      after_success: skip
