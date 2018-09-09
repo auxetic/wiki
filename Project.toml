@@ -1,4 +1,7 @@
 name = "wiki"
+authors = ["liuxu <liuxu89@mail.ustc.edu.cn>"]
+uuid = "f77f3a3e-b403-11e8-3915-e5108e9c5247"
+version = "0.1.0"
 
 [deps]
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
