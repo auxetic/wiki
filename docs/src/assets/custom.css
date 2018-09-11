@@ -61,8 +61,8 @@ a:hover {
 }
 nav.toc ul a.toctext {
     font-size: 16px;
-    padding-left: 24px;
-    /* color: #555; */
+    /* padding-left: 24px; */
+    color: #555;
     color: #aaa;
 }
 nav.toc ul a.toctext:hover {
@@ -79,7 +79,7 @@ nav.toc {
     background: #EEE;
     box-shadow: none;
     font-family: 'Vollkorn', 'Noto Sans SC', serif;
-    color: #fff;
+    color: #bbb;
 }
 .admonition-title {
     font-family: 'Vollkorn', 'Noto Sans SC', serif;
@@ -109,7 +109,8 @@ nav.toc ul.internal {
 }
 nav.toc ul.internal a.toctext {
     color: #555;
-    padding-left: 36px;
+    padding-left: 50px;
+    /* padding-left: 136px; */
     font-size: 0.9em;
 }
 h1,h2,h3{
@@ -128,8 +129,9 @@ h2 {
     font-weight: 400;
     margin: 0;
     padding: 0;
+    /* padding: 10px; */
     font-size: 1.4em;
-    border-bottom: none;
+    /* border-bottom: none; */
 }
 h2 a {
     color: #337ab7;

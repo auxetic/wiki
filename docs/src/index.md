@@ -6,43 +6,6 @@
 
     Documenter, a package for building documentation from docstrings and markdown files.
 
-!!! warn
-
-    Please read through the
-    [Documentation](https://docs.julialang.org/en/latest/manual/documentation/) section
-    of the main Julia manual if this is your first time using Julia's documentation system.
-    Once you've read through how to write documentation for your code then come back here.
-
-## Contents
+# Contents
 ```@contents
 ```
-
-## Title
-
-- Write all your documentation in [Markdown](https://en.wikipedia.org/wiki/Markdown).
-- Minimal configuration.
-- Supports Julia `0.6` and `0.7-dev`.
-
-
-c code
-```c
-#include<stdio.h>
-
-int main(int argc, char *argv[])
-{
-    char word[10];
-    puts("enter sth");
-    while (fgets(word,10,stdin) != NULL && word[0] != '\n')
-        fputs(word,stdout);
-    puts("done");
-    return 0;
-}
-```
-
-##
-对于温度很低的Jam固体，所有质点在其原始位置``\{u_i^0\}``周围振动，这里我们认为其在不同时刻的位置服从正态分布（明显不是）
-``$\Phi(\mu_i,\sigma_0)$``
-当温度升高时，我们有理论预期，即: ``$v_i = (\mu_i-u_i^0) \sim T$``
-但是``v_i``很小，需要通过大量地对 ``u_i-u_i^0`` 采样平均才能得到，这里我们对得到可信结果所需采样次数进行估计。
-
-粒子振动范围的估计: ``$\frac{1}{2}\omega^2 A^2 = \frac{1}{2}kT$`` ``$\sigma_0 = A \approx \sqrt{T}$``

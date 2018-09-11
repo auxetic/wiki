@@ -1,4 +1,4 @@
-## 自动微分
+# 自动微分
 
 函数求导是一件很常见的数学操作。在我们已知函数形式的情况下，如何通过计算机求函数的导数呢？
 很容易想到的是以下两种方法：
@@ -24,5 +24,3 @@ Base.show(io::IO,x::Dual) = print("$(x.v) + $(x.d)ϵ")
 convert(::Type{Dual}, x::Real) = Dual(x,zero(x))
 promote_rule(::Type{Dual}, ::Type{<:Number}) = Dual
 ```
-
-    
