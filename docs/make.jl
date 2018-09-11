@@ -27,6 +27,7 @@ makedocs(
             ],
         "年鉴" => Any[
             "YearBook/index.md",
+            "YearBook/peoples.md",
             ],
     ],
     assets = ["assets/custom.css", "assets/custom.js", "assets/favicon.ico"]
