@@ -299,6 +299,158 @@ var documenterSearchIndex = {"docs": [
 {
     "location": "YearBook/index.html#-1",
     "page": "历史年鉴",
+    "title": "1620",
+    "category": "section",
+    "text": "12.26 “五月花”号到达普利茅斯"
+},
+
+{
+    "location": "YearBook/index.html#-2",
+    "page": "历史年鉴",
+    "title": "1636",
+    "category": "section",
+    "text": "10.28 哈佛大学成立"
+},
+
+{
+    "location": "YearBook/index.html#-3",
+    "page": "历史年鉴",
+    "title": "1773",
+    "category": "section",
+    "text": "12.16 波士顿倾茶事件"
+},
+
+{
+    "location": "YearBook/index.html#-4",
+    "page": "历史年鉴",
+    "title": "1776",
+    "category": "section",
+    "text": "7.4 大陆会议通过《独立宣言》"
+},
+
+{
+    "location": "YearBook/index.html#-5",
+    "page": "历史年鉴",
+    "title": "1787",
+    "category": "section",
+    "text": "5.25 美国制宪会议在费城召开"
+},
+
+{
+    "location": "YearBook/index.html#-6",
+    "page": "历史年鉴",
+    "title": "1789",
+    "category": "section",
+    "text": "3.4 美国宪法生效\n4.30 美国联邦政府成立，华盛顿就任第一届总统"
+},
+
+{
+    "location": "YearBook/index.html#-7",
+    "page": "历史年鉴",
+    "title": "1812",
+    "category": "section",
+    "text": "6.18 美英爆发第二次战争"
+},
+
+{
+    "location": "YearBook/index.html#-8",
+    "page": "历史年鉴",
+    "title": "1823",
+    "category": "section",
+    "text": "12.2 美国提出门罗主义，反对欧洲干涉美洲事务"
+},
+
+{
+    "location": "YearBook/index.html#-9",
+    "page": "历史年鉴",
+    "title": "1836",
+    "category": "section",
+    "text": "是年，美国人萨缪尔·摩尔斯发明摩尔斯电码"
+},
+
+{
+    "location": "YearBook/index.html#-10",
+    "page": "历史年鉴",
+    "title": "1844",
+    "category": "section",
+    "text": "7.3 中美签订《望厦条约》"
+},
+
+{
+    "location": "YearBook/index.html#-11",
+    "page": "历史年鉴",
+    "title": "1855",
+    "category": "section",
+    "text": "7.8 美国军舰抵达日本强迫开户通商（黑船事件）"
+},
+
+{
+    "location": "YearBook/index.html#-12",
+    "page": "历史年鉴",
+    "title": "1861",
+    "category": "section",
+    "text": "4.15 美国南北内战爆发"
+},
+
+{
+    "location": "YearBook/index.html#-13",
+    "page": "历史年鉴",
+    "title": "1863",
+    "category": "section",
+    "text": "1.1 林肯签署《解放宣言》"
+},
+
+{
+    "location": "YearBook/index.html#-14",
+    "page": "历史年鉴",
+    "title": "1865",
+    "category": "section",
+    "text": "4.9 美国内战结束\n4.14 林肯被刺，次日身亡"
+},
+
+{
+    "location": "YearBook/index.html#-15",
+    "page": "历史年鉴",
+    "title": "1867",
+    "category": "section",
+    "text": "3.30 美国从沙俄购买了阿拉斯加"
+},
+
+{
+    "location": "YearBook/index.html#-16",
+    "page": "历史年鉴",
+    "title": "1879",
+    "category": "section",
+    "text": "12.21 爱迪生发明电灯"
+},
+
+{
+    "location": "YearBook/index.html#-17",
+    "page": "历史年鉴",
+    "title": "1882",
+    "category": "section",
+    "text": "5.6 美国通过排华法案"
+},
+
+{
+    "location": "YearBook/index.html#-18",
+    "page": "历史年鉴",
+    "title": "1898",
+    "category": "section",
+    "text": "7.7 美国兼并夏威夷"
+},
+
+{
+    "location": "YearBook/index.html#-19",
+    "page": "历史年鉴",
+    "title": "1903",
+    "category": "section",
+    "text": "12.17 莱特兄弟发明的飞机成功起飞"
+},
+
+{
+    "location": "YearBook/index.html#-20",
+    "page": "历史年鉴",
     "title": "1947",
     "category": "section",
     "text": "11.6 杨德昌出生于上海市。卒于2007.6.29。祖籍广东梅县；1985年与蔡琴结婚，1995年离婚，同年娶台湾钢琴家彭铠立。"
@@ -313,7 +465,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-2",
+    "location": "YearBook/index.html#-21",
     "page": "历史年鉴",
     "title": "1971",
     "category": "section",
@@ -321,7 +473,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-3",
+    "location": "YearBook/index.html#-22",
     "page": "历史年鉴",
     "title": "1972",
     "category": "section",
@@ -329,7 +481,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-4",
+    "location": "YearBook/index.html#-23",
     "page": "历史年鉴",
     "title": "1979",
     "category": "section",
@@ -337,7 +489,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-5",
+    "location": "YearBook/index.html#-24",
     "page": "历史年鉴",
     "title": "1982",
     "category": "section",
@@ -345,7 +497,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-6",
+    "location": "YearBook/index.html#-25",
     "page": "历史年鉴",
     "title": "1985",
     "category": "section",
@@ -353,7 +505,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-7",
+    "location": "YearBook/index.html#-26",
     "page": "历史年鉴",
     "title": "1988",
     "category": "section",
@@ -361,7 +513,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-8",
+    "location": "YearBook/index.html#-27",
     "page": "历史年鉴",
     "title": "1991",
     "category": "section",
@@ -369,7 +521,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-9",
+    "location": "YearBook/index.html#-28",
     "page": "历史年鉴",
     "title": "2001",
     "category": "section",
@@ -377,7 +529,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-10",
+    "location": "YearBook/index.html#-29",
     "page": "历史年鉴",
     "title": "2003",
     "category": "section",
@@ -385,7 +537,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-11",
+    "location": "YearBook/index.html#-30",
     "page": "历史年鉴",
     "title": "2004",
     "category": "section",
@@ -393,7 +545,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-12",
+    "location": "YearBook/index.html#-31",
     "page": "历史年鉴",
     "title": "2006",
     "category": "section",
@@ -401,7 +553,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-13",
+    "location": "YearBook/index.html#-32",
     "page": "历史年鉴",
     "title": "2007",
     "category": "section",
@@ -409,7 +561,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-14",
+    "location": "YearBook/index.html#-33",
     "page": "历史年鉴",
     "title": "2008",
     "category": "section",
@@ -417,7 +569,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-15",
+    "location": "YearBook/index.html#-34",
     "page": "历史年鉴",
     "title": "2011",
     "category": "section",
@@ -425,7 +577,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-16",
+    "location": "YearBook/index.html#-35",
     "page": "历史年鉴",
     "title": "2014",
     "category": "section",
@@ -433,7 +585,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-17",
+    "location": "YearBook/index.html#-36",
     "page": "历史年鉴",
     "title": "2015",
     "category": "section",
@@ -441,7 +593,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-18",
+    "location": "YearBook/index.html#-37",
     "page": "历史年鉴",
     "title": "2016",
     "category": "section",
@@ -449,7 +601,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-19",
+    "location": "YearBook/index.html#-38",
     "page": "历史年鉴",
     "title": "2017",
     "category": "section",
@@ -457,11 +609,11 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-20",
+    "location": "YearBook/index.html#-39",
     "page": "历史年鉴",
     "title": "2018",
     "category": "section",
-    "text": "5.1 多米尼加与民国断交\n5.24 布基纳法索与民国断交\n8.21 萨尔瓦多与民国断交\n8.24 澳大利亚总理特恩布尔下台，国防部长斯科特·莫里森（Scott Morrison）出任新任总理"
+    "text": "5.1 多米尼加与民国断交\n5.24 布基纳法索与民国断交\n8.21 萨尔瓦多与民国断交\n8.24 澳大利亚总理特恩布尔下台，国防部长斯科特·莫里森（Scott Morrison）出任新总理"
 },
 
 {
