@@ -75,7 +75,7 @@ nav.toc input {
 
 nav.toc {
     margin-left: 0;
-    width: 300px;
+    /* width: 250px; */
     background: #EEE;
     box-shadow: none;
     font-family: 'Vollkorn', 'Noto Sans SC', serif;
