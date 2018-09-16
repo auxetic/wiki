@@ -483,13 +483,21 @@ var documenterSearchIndex = {"docs": [
 {
     "location": "YearBook/index.html#-23",
     "page": "历史年鉴",
+    "title": "1978",
+    "category": "section",
+    "text": "3.16 意大利左派组织红色旅绑架意前总理莫罗，用以要挟政府交换狱中同伴，政府拒绝，人质被杀（5.9）"
+},
+
+{
+    "location": "YearBook/index.html#-24",
+    "page": "历史年鉴",
     "title": "1979",
     "category": "section",
     "text": "1.1 中美建交，共同发布《中美建交公报》"
 },
 
 {
-    "location": "YearBook/index.html#-24",
+    "location": "YearBook/index.html#-25",
     "page": "历史年鉴",
     "title": "1982",
     "category": "section",
@@ -497,7 +505,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-25",
+    "location": "YearBook/index.html#-26",
     "page": "历史年鉴",
     "title": "1985",
     "category": "section",
@@ -505,7 +513,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-26",
+    "location": "YearBook/index.html#-27",
     "page": "历史年鉴",
     "title": "1988",
     "category": "section",
@@ -513,7 +521,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-27",
+    "location": "YearBook/index.html#-28",
     "page": "历史年鉴",
     "title": "1991",
     "category": "section",
@@ -521,7 +529,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-28",
+    "location": "YearBook/index.html#-29",
     "page": "历史年鉴",
     "title": "2001",
     "category": "section",
@@ -529,7 +537,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-29",
+    "location": "YearBook/index.html#-30",
     "page": "历史年鉴",
     "title": "2003",
     "category": "section",
@@ -537,7 +545,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-30",
+    "location": "YearBook/index.html#-31",
     "page": "历史年鉴",
     "title": "2004",
     "category": "section",
@@ -545,7 +553,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-31",
+    "location": "YearBook/index.html#-32",
     "page": "历史年鉴",
     "title": "2006",
     "category": "section",
@@ -553,7 +561,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-32",
+    "location": "YearBook/index.html#-33",
     "page": "历史年鉴",
     "title": "2007",
     "category": "section",
@@ -561,7 +569,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-33",
+    "location": "YearBook/index.html#-34",
     "page": "历史年鉴",
     "title": "2008",
     "category": "section",
@@ -569,7 +577,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-34",
+    "location": "YearBook/index.html#-35",
     "page": "历史年鉴",
     "title": "2011",
     "category": "section",
@@ -577,7 +585,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-35",
+    "location": "YearBook/index.html#-36",
     "page": "历史年鉴",
     "title": "2014",
     "category": "section",
@@ -585,7 +593,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-36",
+    "location": "YearBook/index.html#-37",
     "page": "历史年鉴",
     "title": "2015",
     "category": "section",
@@ -593,7 +601,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-37",
+    "location": "YearBook/index.html#-38",
     "page": "历史年鉴",
     "title": "2016",
     "category": "section",
@@ -601,7 +609,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-38",
+    "location": "YearBook/index.html#-39",
     "page": "历史年鉴",
     "title": "2017",
     "category": "section",
@@ -609,7 +617,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-39",
+    "location": "YearBook/index.html#-40",
     "page": "历史年鉴",
     "title": "2018",
     "category": "section",
@@ -646,6 +654,30 @@ var documenterSearchIndex = {"docs": [
     "title": "马英九",
     "category": "section",
     "text": "马英九（1950.7.13-），生于香港九龙油麻地，祖籍湖南衡山县。1952年定居台北。 毕业于台大法律系，后获得哈佛大学司法学博士学位。 曾任蒋经国英文翻译。 1993年受行政院长连战之邀出任法务部长。 1998年击败陈水扁任台北市市长。 2005年当选国民党党主席。 2008年当选台湾省省长。 2012年连任。 2016年卸任。"
+},
+
+{
+    "location": "wiki/wiki.html#",
+    "page": "组织",
+    "title": "组织",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "wiki/wiki.html#组织-1",
+    "page": "组织",
+    "title": "组织",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "wiki/wiki.html#红色旅-1",
+    "page": "组织",
+    "title": "红色旅",
+    "category": "section",
+    "text": "意大利极左派组织，成立于1970年，主要创建者是特伦托大学的一名社会学学生雷纳托·库乔。 该组织最著名的行动是1978年绑架意大利前总理莫罗。"
 },
 
 ]}
