@@ -29,6 +29,8 @@ makedocs(
             "YearBook/index.md",
             "YearBook/peoples.md",
             ],
+        "百科杂记" => Any["wiki/wiki.md",
+            ],
     ],
     assets = ["assets/custom.css", "assets/custom.js", "assets/favicon.ico"]
 )
