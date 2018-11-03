@@ -39,7 +39,7 @@ deploydocs(
     repo = "github.com/auxetic/wiki",
     target = "build",
     julia = "1.0",
-    latest = "master",
+    #  latest = "master",
     deps = nothing,
     make = nothing,
 )
