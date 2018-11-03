@@ -1,7 +1,7 @@
 var documenterSearchIndex = {"docs": [
 
 {
-    "location": "index.html#",
+    "location": "#",
     "page": "Home",
     "title": "Home",
     "category": "page",
@@ -9,7 +9,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "index.html#wiki-1",
+    "location": "#wiki-1",
     "page": "Home",
     "title": "wiki",
     "category": "section",
@@ -17,7 +17,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "index.html#Contents-1",
+    "location": "#Contents-1",
     "page": "Home",
     "title": "Contents",
     "category": "section",
@@ -25,7 +25,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Algorithm/autodiff.html#",
+    "location": "Algorithm/autodiff/#",
     "page": "自动微分",
     "title": "自动微分",
     "category": "page",
@@ -33,7 +33,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Algorithm/autodiff.html#自动微分-1",
+    "location": "Algorithm/autodiff/#自动微分-1",
     "page": "自动微分",
     "title": "自动微分",
     "category": "section",
@@ -41,7 +41,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#",
+    "location": "Python/#",
     "page": "Python 学习记录",
     "title": "Python 学习记录",
     "category": "page",
@@ -49,7 +49,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#Python-学习记录-1",
+    "location": "Python/#Python-学习记录-1",
     "page": "Python 学习记录",
     "title": "Python 学习记录",
     "category": "section",
@@ -57,7 +57,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#快速启动HTTPServer-1",
+    "location": "Python/#快速启动HTTPServer-1",
     "page": "Python 学习记录",
     "title": "快速启动HTTPServer",
     "category": "section",
@@ -65,7 +65,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#sys.argv获取命令行参数-1",
+    "location": "Python/#sys.argv获取命令行参数-1",
     "page": "Python 学习记录",
     "title": "sys.argv获取命令行参数",
     "category": "section",
@@ -73,7 +73,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#标准输入输出-1",
+    "location": "Python/#标准输入输出-1",
     "page": "Python 学习记录",
     "title": "标准输入输出",
     "category": "section",
@@ -81,7 +81,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#从stdin读取内容-1",
+    "location": "Python/#从stdin读取内容-1",
     "page": "Python 学习记录",
     "title": "从stdin读取内容",
     "category": "section",
@@ -89,7 +89,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#向stdout-stderr写入-1",
+    "location": "Python/#向stdout-stderr写入-1",
     "page": "Python 学习记录",
     "title": "向stdout stderr写入",
     "category": "section",
@@ -97,7 +97,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#fileinput-标准库-1",
+    "location": "Python/#fileinput-标准库-1",
     "page": "Python 学习记录",
     "title": "fileinput 标准库",
     "category": "section",
@@ -105,7 +105,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Python/index.html#getpass-标准库-1",
+    "location": "Python/#getpass-标准库-1",
     "page": "Python 学习记录",
     "title": "getpass 标准库",
     "category": "section",
@@ -113,7 +113,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Fortran/Qsort.html#",
+    "location": "Fortran/Qsort/#",
     "page": "Quick Sort",
     "title": "Quick Sort",
     "category": "page",
@@ -121,7 +121,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "Fortran/Qsort.html#Quick-Sort-1",
+    "location": "Fortran/Qsort/#Quick-Sort-1",
     "page": "Quick Sort",
     "title": "Quick Sort",
     "category": "section",
@@ -129,7 +129,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/twostring.html#",
+    "location": "LeetCode/twostring/#",
     "page": "String",
     "title": "String",
     "category": "page",
@@ -137,7 +137,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/twostring.html#String-1",
+    "location": "LeetCode/twostring/#String-1",
     "page": "String",
     "title": "String",
     "category": "section",
@@ -145,7 +145,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/twostring.html#add-and-product-of-two-numeric-string-1",
+    "location": "LeetCode/twostring/#add-and-product-of-two-numeric-string-1",
     "page": "String",
     "title": "add and product of two numeric string",
     "category": "section",
@@ -153,7 +153,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/palindrome.html#",
+    "location": "LeetCode/palindrome/#",
     "page": "Palindrome",
     "title": "Palindrome",
     "category": "page",
@@ -161,7 +161,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/palindrome.html#Palindrome-1",
+    "location": "LeetCode/palindrome/#Palindrome-1",
     "page": "Palindrome",
     "title": "Palindrome",
     "category": "section",
@@ -169,7 +169,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/palindrome.html#Integer-1",
+    "location": "LeetCode/palindrome/#Integer-1",
     "page": "Palindrome",
     "title": "Integer",
     "category": "section",
@@ -177,7 +177,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/palindrome.html#String-1",
+    "location": "LeetCode/palindrome/#String-1",
     "page": "Palindrome",
     "title": "String",
     "category": "section",
@@ -185,7 +185,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/array.html#",
+    "location": "LeetCode/array/#",
     "page": "Array",
     "title": "Array",
     "category": "page",
@@ -193,7 +193,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/array.html#Array-1",
+    "location": "LeetCode/array/#Array-1",
     "page": "Array",
     "title": "Array",
     "category": "section",
@@ -201,7 +201,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/array.html#Rm-duplicates-A-1",
+    "location": "LeetCode/array/#Rm-duplicates-A-1",
     "page": "Array",
     "title": "Rm duplicates A",
     "category": "section",
@@ -209,7 +209,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/array.html#Rm-duplicates-B-1",
+    "location": "LeetCode/array/#Rm-duplicates-B-1",
     "page": "Array",
     "title": "Rm duplicates B",
     "category": "section",
@@ -217,7 +217,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/array.html#Search-array-1",
+    "location": "LeetCode/array/#Search-array-1",
     "page": "Array",
     "title": "Search array",
     "category": "section",
@@ -225,7 +225,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/hash.html#",
+    "location": "LeetCode/hash/#",
     "page": "Hash",
     "title": "Hash",
     "category": "page",
@@ -233,7 +233,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/hash.html#Hash-1",
+    "location": "LeetCode/hash/#Hash-1",
     "page": "Hash",
     "title": "Hash",
     "category": "section",
@@ -241,7 +241,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/hash.html#Group-anagrams-1",
+    "location": "LeetCode/hash/#Group-anagrams-1",
     "page": "Hash",
     "title": "Group anagrams",
     "category": "section",
@@ -249,7 +249,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/heap.html#",
+    "location": "LeetCode/heap/#",
     "page": "Heap",
     "title": "Heap",
     "category": "page",
@@ -257,7 +257,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/heap.html#Heap-1",
+    "location": "LeetCode/heap/#Heap-1",
     "page": "Heap",
     "title": "Heap",
     "category": "section",
@@ -265,7 +265,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "LeetCode/heap.html#find-n-largest-numbers-of-given-array.-1",
+    "location": "LeetCode/heap/#find-n-largest-numbers-of-given-array.-1",
     "page": "Heap",
     "title": "find n largest numbers of given array.",
     "category": "section",
@@ -273,7 +273,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#",
+    "location": "YearBook/#",
     "page": "历史年鉴",
     "title": "历史年鉴",
     "category": "page",
@@ -281,7 +281,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#历史年鉴-1",
+    "location": "YearBook/#历史年鉴-1",
     "page": "历史年鉴",
     "title": "历史年鉴",
     "category": "section",
@@ -289,7 +289,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#?-新（汉）-1",
+    "location": "YearBook/#?-新（汉）-1",
     "page": "历史年鉴",
     "title": "? - 新（汉）",
     "category": "section",
@@ -297,7 +297,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-1",
+    "location": "YearBook/#-1",
     "page": "历史年鉴",
     "title": "1620",
     "category": "section",
@@ -305,7 +305,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-2",
+    "location": "YearBook/#-2",
     "page": "历史年鉴",
     "title": "1636",
     "category": "section",
@@ -313,7 +313,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-3",
+    "location": "YearBook/#-3",
     "page": "历史年鉴",
     "title": "1773",
     "category": "section",
@@ -321,7 +321,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-4",
+    "location": "YearBook/#-4",
     "page": "历史年鉴",
     "title": "1776",
     "category": "section",
@@ -329,7 +329,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-5",
+    "location": "YearBook/#-5",
     "page": "历史年鉴",
     "title": "1787",
     "category": "section",
@@ -337,7 +337,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-6",
+    "location": "YearBook/#-6",
     "page": "历史年鉴",
     "title": "1789",
     "category": "section",
@@ -345,7 +345,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-7",
+    "location": "YearBook/#-7",
     "page": "历史年鉴",
     "title": "1812",
     "category": "section",
@@ -353,7 +353,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-8",
+    "location": "YearBook/#-8",
     "page": "历史年鉴",
     "title": "1823",
     "category": "section",
@@ -361,7 +361,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-9",
+    "location": "YearBook/#-9",
     "page": "历史年鉴",
     "title": "1836",
     "category": "section",
@@ -369,7 +369,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-10",
+    "location": "YearBook/#-10",
     "page": "历史年鉴",
     "title": "1844",
     "category": "section",
@@ -377,7 +377,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-11",
+    "location": "YearBook/#-11",
     "page": "历史年鉴",
     "title": "1855",
     "category": "section",
@@ -385,7 +385,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-12",
+    "location": "YearBook/#-12",
     "page": "历史年鉴",
     "title": "1861",
     "category": "section",
@@ -393,7 +393,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-13",
+    "location": "YearBook/#-13",
     "page": "历史年鉴",
     "title": "1863",
     "category": "section",
@@ -401,7 +401,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-14",
+    "location": "YearBook/#-14",
     "page": "历史年鉴",
     "title": "1865",
     "category": "section",
@@ -409,7 +409,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-15",
+    "location": "YearBook/#-15",
     "page": "历史年鉴",
     "title": "1867",
     "category": "section",
@@ -417,7 +417,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-16",
+    "location": "YearBook/#-16",
     "page": "历史年鉴",
     "title": "1879",
     "category": "section",
@@ -425,7 +425,15 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-17",
+    "location": "YearBook/#-17",
+    "page": "历史年鉴",
+    "title": "1881",
+    "category": "section",
+    "text": "9.25 鲁迅生于浙江绍兴，名树人，字豫才，小名樟寿"
+},
+
+{
+    "location": "YearBook/#-18",
     "page": "历史年鉴",
     "title": "1882",
     "category": "section",
@@ -433,15 +441,23 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-18",
+    "location": "YearBook/#-19",
     "page": "历史年鉴",
     "title": "1898",
     "category": "section",
-    "text": "7.7 美国兼并夏威夷"
+    "text": "是年春，鲁迅入南京江南水师学堂7.7 美国兼并夏威夷"
 },
 
 {
-    "location": "YearBook/index.html#-19",
+    "location": "YearBook/#-20",
+    "page": "历史年鉴",
+    "title": "1901",
+    "category": "section",
+    "text": "是年二月，鲁迅留学日本，入东京弘文学院"
+},
+
+{
+    "location": "YearBook/#-21",
     "page": "历史年鉴",
     "title": "1903",
     "category": "section",
@@ -449,7 +465,135 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-20",
+    "location": "YearBook/#-22",
+    "page": "历史年鉴",
+    "title": "1904",
+    "category": "section",
+    "text": "是年八月，鲁迅入仙台医学专门学校"
+},
+
+{
+    "location": "YearBook/#-23",
+    "page": "历史年鉴",
+    "title": "1908",
+    "category": "section",
+    "text": "是年，鲁迅从学章太炎，为光复会会员"
+},
+
+{
+    "location": "YearBook/#-24",
+    "page": "历史年鉴",
+    "title": "1912",
+    "category": "section",
+    "text": "1.1 鲁迅应蔡元培邀，任教育部"
+},
+
+{
+    "location": "YearBook/#-25",
+    "page": "历史年鉴",
+    "title": "1918",
+    "category": "section",
+    "text": "4 是月，鲁迅发表《狂人日记》"
+},
+
+{
+    "location": "YearBook/#-26",
+    "page": "历史年鉴",
+    "title": "1923",
+    "category": "section",
+    "text": "是年，鲁迅《呐喊》、《中国小说史略》印行"
+},
+
+{
+    "location": "YearBook/#-27",
+    "page": "历史年鉴",
+    "title": "1925",
+    "category": "section",
+    "text": "是年，鲁迅《热风》印行"
+},
+
+{
+    "location": "YearBook/#-28",
+    "page": "历史年鉴",
+    "title": "1926",
+    "category": "section",
+    "text": "8 鲁迅离京任厦门大学教授， 十二月辞职\n6 《华盖集》印行\n9 《彷徨》印行"
+},
+
+{
+    "location": "YearBook/#-29",
+    "page": "历史年鉴",
+    "title": "1927",
+    "category": "section",
+    "text": "3 《坟》印行\n5 《华盖集续编》\n10** 《野草》印行"
+},
+
+{
+    "location": "YearBook/#-30",
+    "page": "历史年鉴",
+    "title": "1928",
+    "category": "section",
+    "text": "6.4 皇姑屯事件，张作霖被炸成重伤，当天死于沈阳\n10 《而已集》印行"
+},
+
+{
+    "location": "YearBook/#-31",
+    "page": "历史年鉴",
+    "title": "1931",
+    "category": "section",
+    "text": "9.18 日军借口中国军队炸毁南满体路侵占沈阳，张学良不抵抗，终致日军占领东北全境"
+},
+
+{
+    "location": "YearBook/#-32",
+    "page": "历史年鉴",
+    "title": "1932",
+    "category": "section",
+    "text": "3.1 伪满洲国成立\n9 《三闲集》\n10 《二心集》"
+},
+
+{
+    "location": "YearBook/#-33",
+    "page": "历史年鉴",
+    "title": "1933",
+    "category": "section",
+    "text": "10 《伪自由书》印行"
+},
+
+{
+    "location": "YearBook/#-34",
+    "page": "历史年鉴",
+    "title": "1934",
+    "category": "section",
+    "text": "3 《南腔北调集》印行\n12** 《准风月谈》印行"
+},
+
+{
+    "location": "YearBook/#-35",
+    "page": "历史年鉴",
+    "title": "1935",
+    "category": "section",
+    "text": "5 《集外集》"
+},
+
+{
+    "location": "YearBook/#-36",
+    "page": "历史年鉴",
+    "title": "1936",
+    "category": "section",
+    "text": "1 《故事新编》印行\n6 《花边文学》\n8.18 鲁迅先生病逝"
+},
+
+{
+    "location": "YearBook/#-37",
+    "page": "历史年鉴",
+    "title": "1937",
+    "category": "section",
+    "text": "7 《且介亭杂文》，《且介亭杂文二编》，《且介亭杂文末编》"
+},
+
+{
+    "location": "YearBook/#-38",
     "page": "历史年鉴",
     "title": "1947",
     "category": "section",
@@ -457,7 +601,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#新中国-1",
+    "location": "YearBook/#新中国-1",
     "page": "历史年鉴",
     "title": "新中国",
     "category": "section",
@@ -465,7 +609,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-21",
+    "location": "YearBook/#-39",
     "page": "历史年鉴",
     "title": "1971",
     "category": "section",
@@ -473,7 +617,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-22",
+    "location": "YearBook/#-40",
     "page": "历史年鉴",
     "title": "1972",
     "category": "section",
@@ -481,7 +625,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-23",
+    "location": "YearBook/#-41",
     "page": "历史年鉴",
     "title": "1978",
     "category": "section",
@@ -489,7 +633,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-24",
+    "location": "YearBook/#-42",
     "page": "历史年鉴",
     "title": "1979",
     "category": "section",
@@ -497,7 +641,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-25",
+    "location": "YearBook/#-43",
     "page": "历史年鉴",
     "title": "1982",
     "category": "section",
@@ -505,7 +649,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-26",
+    "location": "YearBook/#-44",
     "page": "历史年鉴",
     "title": "1985",
     "category": "section",
@@ -513,7 +657,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-27",
+    "location": "YearBook/#-45",
     "page": "历史年鉴",
     "title": "1988",
     "category": "section",
@@ -521,7 +665,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-28",
+    "location": "YearBook/#-46",
     "page": "历史年鉴",
     "title": "1991",
     "category": "section",
@@ -529,7 +673,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-29",
+    "location": "YearBook/#-47",
     "page": "历史年鉴",
     "title": "2001",
     "category": "section",
@@ -537,7 +681,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-30",
+    "location": "YearBook/#-48",
     "page": "历史年鉴",
     "title": "2003",
     "category": "section",
@@ -545,7 +689,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-31",
+    "location": "YearBook/#-49",
     "page": "历史年鉴",
     "title": "2004",
     "category": "section",
@@ -553,7 +697,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-32",
+    "location": "YearBook/#-50",
     "page": "历史年鉴",
     "title": "2006",
     "category": "section",
@@ -561,7 +705,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-33",
+    "location": "YearBook/#-51",
     "page": "历史年鉴",
     "title": "2007",
     "category": "section",
@@ -569,7 +713,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-34",
+    "location": "YearBook/#-52",
     "page": "历史年鉴",
     "title": "2008",
     "category": "section",
@@ -577,7 +721,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-35",
+    "location": "YearBook/#-53",
     "page": "历史年鉴",
     "title": "2011",
     "category": "section",
@@ -585,7 +729,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-36",
+    "location": "YearBook/#-54",
     "page": "历史年鉴",
     "title": "2014",
     "category": "section",
@@ -593,7 +737,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-37",
+    "location": "YearBook/#-55",
     "page": "历史年鉴",
     "title": "2015",
     "category": "section",
@@ -601,7 +745,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-38",
+    "location": "YearBook/#-56",
     "page": "历史年鉴",
     "title": "2016",
     "category": "section",
@@ -609,7 +753,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-39",
+    "location": "YearBook/#-57",
     "page": "历史年鉴",
     "title": "2017",
     "category": "section",
@@ -617,7 +761,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/index.html#-40",
+    "location": "YearBook/#-58",
     "page": "历史年鉴",
     "title": "2018",
     "category": "section",
@@ -625,7 +769,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/peoples.html#",
+    "location": "YearBook/peoples/#",
     "page": "人物志",
     "title": "人物志",
     "category": "page",
@@ -633,7 +777,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/peoples.html#人物志-1",
+    "location": "YearBook/peoples/#人物志-1",
     "page": "人物志",
     "title": "人物志",
     "category": "section",
@@ -641,7 +785,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/peoples.html#台湾省-1",
+    "location": "YearBook/peoples/#台湾省-1",
     "page": "人物志",
     "title": "台湾省",
     "category": "section",
@@ -649,7 +793,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/peoples.html#马英九-1",
+    "location": "YearBook/peoples/#马英九-1",
     "page": "人物志",
     "title": "马英九",
     "category": "section",
@@ -657,7 +801,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "wiki/wiki.html#",
+    "location": "wiki/wiki/#",
     "page": "组织",
     "title": "组织",
     "category": "page",
@@ -665,7 +809,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "wiki/wiki.html#组织-1",
+    "location": "wiki/wiki/#组织-1",
     "page": "组织",
     "title": "组织",
     "category": "section",
@@ -673,7 +817,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "wiki/wiki.html#红色旅-1",
+    "location": "wiki/wiki/#红色旅-1",
     "page": "组织",
     "title": "红色旅",
     "category": "section",

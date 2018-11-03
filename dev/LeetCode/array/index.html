@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>Array · wiki</title><link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css" rel="stylesheet" type="text/css"/><link href="https://fonts.googleapis.com/css?family=Lato|Roboto+Mono" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css"/><link href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css" rel="stylesheet" type="text/css"/><script>documenterBaseURL="../.."</script><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.2.0/require.min.js" data-main="../../assets/documenter.js"></script><script src="../../siteinfo.js"></script><script src="../../../versions.js"></script><link href="../../assets/documenter.css" rel="stylesheet" type="text/css"/><link href="../../assets/custom.css" rel="stylesheet" type="text/css"/><script src="../../assets/custom.js"></script><link href="../../assets/favicon.ico" rel="icon" type="image/x-icon"/></head><body><nav class="toc"><h1>wiki</h1><select id="version-selector" onChange="window.location.href=this.value" style="visibility: hidden"></select><form class="search" id="search-form" action="../../search/"><input id="search-query" name="q" type="text" placeholder="Search docs"/></form><ul><li><a class="toctext" href="../../">Home</a></li><li><span class="toctext">Algorithm</span><ul><li><a class="toctext" href="../../Algorithm/autodiff/">自动微分</a></li></ul></li><li><span class="toctext">Python</span><ul><li><a class="toctext" href="../../Python/">Python 学习记录</a></li></ul></li><li><span class="toctext">Fortran</span><ul><li><a class="toctext" href="../../Fortran/Qsort/">Quick Sort</a></li></ul></li><li><span class="toctext">LeetCode</span><ul><li><a class="toctext" href="../twostring/">String</a></li><li><a class="toctext" href="../palindrome/">Palindrome</a></li><li class="current"><a class="toctext" href>Array</a><ul class="internal"><li><a class="toctext" href="#Rm-duplicates-A-1">Rm duplicates A</a></li><li><a class="toctext" href="#Rm-duplicates-B-1">Rm duplicates B</a></li><li><a class="toctext" href="#Search-array-1">Search array</a></li></ul></li><li><a class="toctext" href="../hash/">Hash</a></li><li><a class="toctext" href="../heap/">Heap</a></li></ul></li><li><span class="toctext">年鉴</span><ul><li><a class="toctext" href="../../YearBook/">历史年鉴</a></li><li><a class="toctext" href="../../YearBook/peoples/">人物志</a></li></ul></li><li><span class="toctext">百科杂记</span><ul><li><a class="toctext" href="../../wiki/wiki/">组织</a></li></ul></li></ul></nav><article id="docs"><header><nav><ul><li>LeetCode</li><li><a href>Array</a></li></ul><a class="edit-page" href="https://github.com/auxetic/wiki/blob/master/docs/src/LeetCode/array.md"><span class="fa"></span> Edit on GitHub</a></nav><hr/><div id="topbar"><span>Array</span><a class="fa fa-bars" href="#"></a></div></header><h1><a class="nav-anchor" id="Array-1" href="#Array-1">Array</a></h1><h2><a class="nav-anchor" id="Rm-duplicates-A-1" href="#Rm-duplicates-A-1">Rm duplicates A</a></h2><p>Remove duplicates from <strong>Sorted</strong> array</p><div></div><pre><code class="language-julia">x = sort(rand(1:4,10))
+function rmdup!(x)
+    idx = 1
+    for i in 2:length(x)
+        if x[idx] != x[i]
+            idx += 1
+            x[idx] = x[i]
+        end
+    end
+    idx
+end</code></pre><h2><a class="nav-anchor" id="Rm-duplicates-B-1" href="#Rm-duplicates-B-1">Rm duplicates B</a></h2><p>Fellow up probrem, add allow elements duplicate once.</p><pre><code class="language-julia">function rmdup!(x)
+    idx = 2
+    for i in 3:length(x)
+        if x[idx-1] != x[i]
+            idx += 1
+            x[idx] = x[i]
+        end
+    end
+    idx
+end</code></pre><h2><a class="nav-anchor" id="Search-array-1" href="#Search-array-1">Search array</a></h2><p><code>x</code> is a sorted array and circle shift 3 index, find the target value and give its idx.</p><pre><code class="language-julia">x = [1:10;]
+x = circshift(x,3)
+
+function findta(x,ta)
+    n1 = 1
+    n3 = length(x)
+    while n3 &gt;= n1
+        n2 = (n1+n3) &gt;&gt; 1
+        x[n2] == ta &amp;&amp; return n2
+
+        if x[n2] &gt;= x[n1]
+            if x[n2] &gt;= ta &gt;= x[n1]
+                n3 = n2
+            else
+                n1 = n2 + 1
+            end
+        else
+            if ta&gt;=x[n1] || ta&lt;=x[n2]
+                n3 = n2
+            else
+                n1 = n2 + 1
+            end
+        end
+    end
+    -1
+end</code></pre><footer><hr/><a class="previous" href="../palindrome/"><span class="direction">Previous</span><span class="title">Palindrome</span></a><a class="next" href="../hash/"><span class="direction">Next</span><span class="title">Hash</span></a></footer></article></body></html>
