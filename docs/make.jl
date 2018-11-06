@@ -21,6 +21,9 @@ makedocs(
         "系统运维" => Any[
             "Ops/index.md",
             ],
+        "文摘" => Any[
+            "Digest/index.md",
+            ],
         "LeetCode" => Any[
             "LeetCode/twostring.md",
             "LeetCode/palindrome.md",
