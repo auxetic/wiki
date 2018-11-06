@@ -597,7 +597,7 @@ var documenterSearchIndex = {"docs": [
     "page": "历史年鉴",
     "title": "1927",
     "category": "section",
-    "text": "3 《坟》印行\n5 《华盖集续编》\n10** 《野草》印行"
+    "text": "3 《坟》印行\n5 《华盖集续编》\n10 《野草》印行"
 },
 
 {
