@@ -129,6 +129,54 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
+    "location": "Ops/#",
+    "page": "系统运维",
+    "title": "系统运维",
+    "category": "page",
+    "text": ""
+},
+
+{
+    "location": "Ops/#系统运维-1",
+    "page": "系统运维",
+    "title": "系统运维",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "Ops/#磁盘监控-1",
+    "page": "系统运维",
+    "title": "磁盘监控",
+    "category": "section",
+    "text": ""
+},
+
+{
+    "location": "Ops/#iotop-1",
+    "page": "系统运维",
+    "title": "iotop",
+    "category": "section",
+    "text": "iotop用来监控磁盘I/O，可以提供PID、用户、进程等相关信息。和top类似，提供快捷键。 iotop使用Python编写，需要Linux Kernel 2.6.20以上版本 官方主页: http://guichaz.free.fr/iotop/"
+},
+
+{
+    "location": "Ops/#选项列表-1",
+    "page": "系统运维",
+    "title": "选项列表",
+    "category": "section",
+    "text": "-o, –only: 只显示有I/O操作的进程\n-b, –batch: 非交互模式，可用于向文件导出\n-d, –delay=: 统计间隔\n-n, –iter=: 统计次数，完后退出\n-u, –user=: 指定监控用户\n-P, –processes: 仅限进程\n-a: 显示累计值而非带宽\n-t: 输出时间戳\n-q, -qq, -qqq: 隐藏列名称，统计摘要等"
+},
+
+{
+    "location": "Ops/#快捷键-1",
+    "page": "系统运维",
+    "title": "快捷键",
+    "category": "section",
+    "text": "左右方向键，选定排序主列\np，切换进程线程显示\nr，反向排序\na，切换带宽/累计\no，同上段"
+},
+
+{
     "location": "LeetCode/twostring/#",
     "page": "String",
     "title": "String",
@@ -667,13 +715,21 @@ var documenterSearchIndex = {"docs": [
 {
     "location": "YearBook/#-46",
     "page": "历史年鉴",
+    "title": "1999",
+    "category": "section",
+    "text": "8 赖昌星出逃加拿大"
+},
+
+{
+    "location": "YearBook/#-47",
+    "page": "历史年鉴",
     "title": "1991",
     "category": "section",
     "text": "8.19-21 苏共保守派发动政变，于黑海畔软禁戈尔巴乔夫\n8.24 戈尔巴乔夫辞去苏共总书记\n12.25 苏联总统戈尔巴乔夫辞职\n12.26 苏联最高苏维埃通过决议宣布解体"
 },
 
 {
-    "location": "YearBook/#-47",
+    "location": "YearBook/#-48",
     "page": "历史年鉴",
     "title": "2001",
     "category": "section",
@@ -681,7 +737,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-48",
+    "location": "YearBook/#-49",
     "page": "历史年鉴",
     "title": "2003",
     "category": "section",
@@ -689,7 +745,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-49",
+    "location": "YearBook/#-50",
     "page": "历史年鉴",
     "title": "2004",
     "category": "section",
@@ -697,7 +753,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-50",
+    "location": "YearBook/#-51",
     "page": "历史年鉴",
     "title": "2006",
     "category": "section",
@@ -705,7 +761,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-51",
+    "location": "YearBook/#-52",
     "page": "历史年鉴",
     "title": "2007",
     "category": "section",
@@ -713,7 +769,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-52",
+    "location": "YearBook/#-53",
     "page": "历史年鉴",
     "title": "2008",
     "category": "section",
@@ -721,15 +777,15 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-53",
+    "location": "YearBook/#-54",
     "page": "历史年鉴",
     "title": "2011",
     "category": "section",
-    "text": "5.1 奥萨玛·本拉登被美军击毙"
+    "text": "5.1 奥萨玛·本拉登被美军击毙\n7.23 赖昌星遣送回国"
 },
 
 {
-    "location": "YearBook/#-54",
+    "location": "YearBook/#-55",
     "page": "历史年鉴",
     "title": "2014",
     "category": "section",
@@ -737,7 +793,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-55",
+    "location": "YearBook/#-56",
     "page": "历史年鉴",
     "title": "2015",
     "category": "section",
@@ -745,7 +801,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-56",
+    "location": "YearBook/#-57",
     "page": "历史年鉴",
     "title": "2016",
     "category": "section",
@@ -753,7 +809,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-57",
+    "location": "YearBook/#-58",
     "page": "历史年鉴",
     "title": "2017",
     "category": "section",
@@ -761,7 +817,7 @@ var documenterSearchIndex = {"docs": [
 },
 
 {
-    "location": "YearBook/#-58",
+    "location": "YearBook/#-59",
     "page": "历史年鉴",
     "title": "2018",
     "category": "section",
