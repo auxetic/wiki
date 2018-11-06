@@ -18,6 +18,9 @@ makedocs(
         "Fortran"  => Any[
             "Fortran/Qsort.md",
             ],
+        "系统运维" => Any[
+            "Ops/index.md",
+            ],
         "LeetCode" => Any[
             "LeetCode/twostring.md",
             "LeetCode/palindrome.md",
