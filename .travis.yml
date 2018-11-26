@@ -1,18 +1,12 @@
+# Documentation: http://docs.travis-ci.com/user/languages/julia/
 language: julia
-# julia:
-#   - nightly
-# os:
-#   - linux
-# after_success:
-#   - julia --project -e 'using Pkg; Pkg.instantiate(); include("docs/make.jl")'
-#
-jobs:
-  include:
-    - stage: "Documentation"
-      julia: 1.0
-      os: linux
-      script:
-        - julia --project=docs/ -e 'using Pkg; Pkg.instantiate()'
-        - julia --project=docs/ -e 'using Pkg; Pkg.add(PackageSpec(path=pwd()))'
-        - julia --project=docs/ docs/make.jl
-      after_success: skip
+os:
+  - linux
+julia:
+  - 1.0
+matrix:
+  fast_finish: true
+notifications:
+  email: false
+after_success:
+  - julia -e 'using Pkg; Pkg.add("Documenter"); include(joinpath("docs", "make.jl"))'
