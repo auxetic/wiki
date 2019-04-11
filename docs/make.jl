@@ -1,31 +1,34 @@
 using Documenter
 
 makedocs(
-    format = :html,
+    sitename = "Liuxu's Wiki",
+    format = Documenter.HTML( assets = [ "assets/favicon.ico", ] ),
     pages  = [
         "Home" => "index.md",
+        "Compute Science Book" => Any[
+            "Advanced Programming in the UNIX Environment" => Any[
+                "CS-books/APUE/index.md"],
+            ],
         "Algorithm" => Any[
             "Algorithm/autodiff.md",
+            "LeetCode" => Any[
+                "LeetCode/twostring.md",
+                "LeetCode/palindrome.md",
+                "LeetCode/array.md",
+                "LeetCode/hash.md",
+                "LeetCode/heap.md",
+                ],
             ],
-        "Python" => Any[
-            "Python/index.md",
-        ],
-        "Fortran"  => Any[
-            "Fortran/Qsort.md",
+        "Languages" => Any[
+            "Python"  => Any[ "Python/index.md",  ],
+            "Fortran" => Any[ "Fortran/Qsort.md", ],
             ],
         "系统运维" => Any[
             "Ops/index.md",
             "Ops/git-summary.md",
             ],
-        "文摘" => Any[
+        "Digest" => Any[
             "Digest/index.md",
-            ],
-        "LeetCode" => Any[
-            "LeetCode/twostring.md",
-            "LeetCode/palindrome.md",
-            "LeetCode/array.md",
-            "LeetCode/hash.md",
-            "LeetCode/heap.md",
             ],
         "年鉴" => Any[
             "YearBook/index.md",
@@ -35,17 +38,17 @@ makedocs(
             ],
     ],
     repo     = "https://github.com/auxetic/wiki/blob/{commit}{path}#L{line}",
-    sitename = "liuxu's wiki",
     #  assets   = ["assets/custom.css", "assets/custom.js", "assets/favicon.ico"],
-    assets   = ["assets/favicon.ico"],
     doctest  = false,
     clean    = true,
 )
 
 deploydocs(
-    repo = "github.com/auxetic/wiki",
     target = "build",
-    julia = "1.0",
+    repo = "github.com/auxetic/wiki.git",
+    branch = "gh-pages",
     deps = nothing,
     make=nothing,
+    devbranch = "master",
+    devurl = "dev"
 )
