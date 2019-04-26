@@ -2,7 +2,7 @@ using Documenter
 
 makedocs(
     sitename = "Liuxu's Wiki",
-    format = Documenter.HTML( assets = [ "assets/favicon.ico", ] ),
+    format = Documenter.HTML( assets = [ "assets/favicon.ico", "custom.css", ] ),
     pages  = [
         "Home" => "index.md",
         "Compute Science Book" => Any[
