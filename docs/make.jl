@@ -36,6 +36,7 @@ makedocs(
             ],
         "百科杂记" => Any["wiki/wiki.md",
             ],
+        "English.md",
     ],
     repo     = "https://github.com/auxetic/wiki/blob/{commit}{path}#L{line}",
     #  assets   = ["assets/custom.css", "assets/custom.js", "assets/favicon.ico"],

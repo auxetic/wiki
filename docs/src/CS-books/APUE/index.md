@@ -465,9 +465,31 @@ UNIX系统允许每个用户修改自己的密码。当普通用户执行passwd�
 ## 文件访问权限
 
 ## 创建新文件时的所有权
+文件创建时的所有者为进程的有效uid。文件的组id可以从进程，也可以从所属目录。
 
+## `access` 和 `faccessat` 函数
+```c
+#include <unistd.h>
+int access(const char *pathname, int mode);
+int faccessat(int fd, const char *pathname, int mode, int flag);
+```
 
+## `umask`
 
+## `chmod`, `fchmod`, `fchmodat` 函数
+## `chown`, `fchown`, `lchown`
+
+## 文件大小
+文件可以有“洞”
+
+## 文件截断
+```c
+#include <unistd.h>
+int truncate(const char *pathname, off_t length);
+int ftruncate(int fd, off_t length);
+```
+
+## 文件系统
 
 
 

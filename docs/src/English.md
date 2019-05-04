@@ -1,0 +1,3 @@
+# 2019-04-29
+1. Through this lens, one can see that ...
+2. 
