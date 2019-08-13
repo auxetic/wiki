@@ -9,4 +9,4 @@ matrix:
 notifications:
   email: false
 after_success:
-  - julia -e 'using Pkg; Pkg.add("Documenter"); include(joinpath("docs", "make.jl"))'
+  - julia -e 'using Pkg; Pkg.add("Documenter"); Pkg.develop("Documenter"); include(joinpath("docs", "make.jl"))'
